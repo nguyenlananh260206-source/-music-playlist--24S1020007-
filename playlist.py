@@ -57,3 +57,6 @@ def view_playlist():
         print("Playlist trống.")
         return
 
+
+elif choice == "2":
+    view_playlist()
