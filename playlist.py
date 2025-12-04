@@ -51,3 +51,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def view_playlist():
+    if not songs:
+        print("Playlist trống.")
+        return
+
